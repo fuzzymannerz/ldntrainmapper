@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
+body{
+background: #BC5858;
+font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.wrapper{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.flattr{
+	top: 3px;
+	right: 3px;
+	position: absolute;
+	z-index: 999;
+}
+header h1{
+font-size: 62px;
+color: white;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+header a{
+	color: white;
+	text-decoration: none;
+}
+#msg{
+	font-size: 22px;
+	color: white;
+	margin-top: 20px;
+}
+#msg a{
+	color: white;
+}
+#userstation{
+	border-style: none;
+	font-size: 34px;
+	padding: 20px;
+	background-color: #e2cccc;
+	color: #BC5858;
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	margin: auto;
+	width: 40%;
+}
+#station{
+	display: none;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+}
+#zone{
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	 display: inline-block;
+  	vertical-align: middle;
+}
+#nope{
+	display: none;
+	position: relative;
+	height: auto;
+	width: 50%;
+	top: 80px;
+	margin: auto;
+	text-align: center;
+	font-size: 38px;
+	color: white;
+	background-color: #BC5858;
+	z-index: 999;
+	padding: 10px;
+}
+#map{
+	height: 60px;
+	width: 100%;
+	margin-top: 10px;
+	text-align: left;
+	margin-left: auto;margin-right: auto;
+}
+footer{
+	font-size: 11px;
+	color: #dda8a6;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+footer a{
+	color: #dda8a6;
+	text-decoration: none;
+}
+footer a:hover{
+	color: #fff;
+}
+#info{
+	display: none;
+	margin-right: auto;margin-left: auto;
+	margin-top: 10px;
+	width: 70%;
+	color: white;
+	font-size: 12px;
+}
+#info a{
+	color: white;
+	text-decoration: none;
+}
+#info a:hover{
+	text-decoration: underline;
+}
+.autocomplete-suggestions { border: 0px solid #BC5858; background: #E2CCCC; overflow-y: scroll;}
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; font-size: 24px; cursor:pointer;}
+.autocomplete-selected { background: #BC5858; color: white; cursor:pointer;}
+.autocomplete-suggestions strong { font-weight: bold; cursor:pointer;}
+
+#statustable{
+	width: 100%;
+	margin-top: 0px;
+}
+#statustable table{
+	width: 100%;
+	font-size: 10px;
+	color: white;
+	border-collapse: collapse;
+
+}
+#statustable td{
+	color: white;
+	padding: 2px;
+}
+
+#statustable th{
+	padding: 4px;
+	border-bottom: none;
+}
+
+
+@media screen and (max-width: 768px)
+{
+header h1{
+max-width: 300px;
+margin-top: 20px;
+margin-left: auto;margin-right: auto;}
+#info{
+	width: 100%;
+	margin-top: 10px;
+}
+#statustable table{
+	display: none;
+}
+}
